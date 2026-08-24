@@ -35,7 +35,7 @@ class PerangkatDesasTable
                     ->sortable(),
 
                 TextColumn::make('nip_nik')
-                    ->label('NIP / NIK')
+                    ->label('NRPD')
                     ->searchable()
                     ->toggleable(),
 

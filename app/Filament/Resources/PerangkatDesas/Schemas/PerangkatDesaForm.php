@@ -43,7 +43,7 @@ class PerangkatDesaForm
                             ->maxLength(255),
 
                         TextInput::make('nip_nik')
-                            ->label('NIP / NIK')
+                            ->label('NRPD')
                             ->maxLength(100)
                             ->nullable(),
 

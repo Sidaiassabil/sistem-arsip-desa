@@ -121,7 +121,7 @@
                         <div>
 
                             <p class="text-xs text-slate-500">
-                                NIP / NIK
+                                NRPD
                             </p>
 
                             <p class="font-semibold text-slate-800">
