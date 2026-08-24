@@ -34,6 +34,7 @@ class AdminPanelProvider extends PanelProvider
             ->id('admin')
             ->path('admin')
             ->login(Login::class)
+            ->passwordReset()
             ->favicon(asset('images/logo.png'))
             ->brandLogo(fn() => view('filament.admin.brand'))
             ->brandLogoHeight('40px')
@@ -49,6 +50,7 @@ class AdminPanelProvider extends PanelProvider
                 'Pembangunan',
                 'Keuangan',
                 'Laporan',
+                'Pengaturan',
             ])
             ->pages([
                 Dashboard::class,
